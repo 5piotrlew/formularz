@@ -9,46 +9,37 @@
 <body>
 
     <form action="https://formspree.io/witek010@gmail.com" method="POST">
-        <label for="imie">Imię:</label><br>
+        <label for="imie">Imię:</label><br/>
         <input type="text" name="Imię" id="imie" value="">
-        <br>
-        <label for="Nazwisko">Nazwisko:</label><br>
+        <br/>
+        <label for="Nazwisko">Nazwisko:</label><br/>
         <input type="text" name="Nazwisko" id="Nazwisko" value="">
-        <br>
-        <label for="Nrtelefonu">Numer telefonu:</label><br>
+        <br/>
+        <label for="Nrtelefonu">Numer telefonu:</label><br/>
         <input type="number" name="Nrtelefonu" id="Nrtelefonu" value="">
-        <br>
-        <label for="E-mail">E-mail:</label><br>
+        <br/>
+        <label for="E-mail">E-mail:</label><br/>
         <input type="email" name="E-mail" id="E-mail" value="">
-        <br>
-        <label for="Wiadomosc">Wiadomość:</label><br>
+        <br/>
+        <p>Wybierz swoje miasto</p>
+        <input type="radio" name="miasto" value="krakow"> Kraków<br/>
+        <input type="radio" name="miasto" value="warszawa"> Warszawa<br/>
+        <input type="radio" name="miasto" value="gdansk"> Gdańsk
+
+        <p>Wybierz swoją płeć</p>
+        <input type="radio" name="gender" value="mezczyzna"> Mężczyzna<br/>
+        <input type="radio" name="gender" value="kobieta"> Kobieta<br/><br/>
+        <input type="checkbox" name="zgoda" value="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych
+        <br/><br/>
+        <label for="Wiadomosc">Wiadomość:</label><br/>
         <textarea name="Wiadomosc" id="Wiadomosc" placeholder="Twoja wiadomosc"></textarea>
-        <br><br>
+        <br/><br/>
 
         <input type="submit" value="Wyślij">
     </form>
 
-<form>
- <p>Wybierz swoje miasto</p>
-  <input type="radio" name="miasto" value="krakow" > Kraków<br>
-  <input type="radio" name="miasto" value="warszawa"> Warszawa<br>
-  <input type="radio" name="miasto" value="gdansk"> Gdańsk 
-</form> 
-
-<form>
- <p>Wybierz swoją płeć</p>
-  <input type="radio" name="gender" value="mezczyzna" > Mężczyzna<br>
-  <input type="radio" name="gender" value="kobieta"> Kobieta<br>
-</form> 
-
-<form action="/action_page.php">
-<input type="checkbox" name="zgoda" value="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych
-<br> 
-<br><br>
-<input type="submit">
-</form> 
-
-
+   
+   
 
 </body>
 
